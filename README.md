@@ -15,6 +15,9 @@
 * email: writer@writer.com - pass: 123456
 * email: editor@editor.com - pass: 123456
 
-## Url Api
+## Url Blog Engine Api
+* [Blog Engine Api](http://zemoga-blog-engine.azurewebsites.net/index.html)
+
+## Url Blog Engine Site
 * [Blog Engine Api](http://zemoga-blog-engine.azurewebsites.net/index.html)
 
