@@ -1,0 +1,339 @@
+{
+	"info": {
+		"_postman_id": "dce85c53-ad6b-4dc1-9369-447c098831f1",
+		"name": "Blog Engine API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Accounts",
+			"item": [
+				{
+					"name": "Create Users",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6Im15ZW1haWw2QGRvbWFpbi5jb20iLCJyb2xlIjoiUHVibGljIiwibmJmIjoxNjM2NzU2NDk3LCJleHAiOjE2MzY3NzgwOTcsImlhdCI6MTYzNjc1NjQ5N30.8XszUudmvygQr7bo7XhYBQvIv3uEwhuwUJ2eR3qLh2c",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"admin@admin.com\",\r\n    \"password\": \"123456\",\r\n    \"rol\": 2\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://zemoga-blog-engine.azurewebsites.net/api/accounts/signUp",
+							"protocol": "https",
+							"host": [
+								"zemoga-blog-engine",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"accounts",
+								"signUp"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Sign In",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"writer@writer.com\",\r\n    \"password\": \"123456\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://zemoga-blog-engine.azurewebsites.net/api/accounts/signIn",
+							"protocol": "https",
+							"host": [
+								"zemoga-blog-engine",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"accounts",
+								"signIn"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Blog Engine",
+			"item": [
+				{
+					"name": "Get All  Post",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IndyaXRlckB3cml0ZXIuY29tIiwicm9sZSI6IldyaXRlciIsInVzZXJfaWQiOiI2IiwibmJmIjoxNjM3MDEyMzMzLCJleHAiOjE2MzcwMzM5MzMsImlhdCI6MTYzNzAxMjMzM30.L7pawdyRCM_IvRinVCWbx0LdZ2Ym3l5_6rHmwUZFdC0",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://zemoga-blog-engine.azurewebsites.net/api/posts",
+							"protocol": "https",
+							"host": [
+								"zemoga-blog-engine",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"posts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Post",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IndyaXRlckB3cml0ZXIuY29tIiwicm9sZSI6IldyaXRlciIsInVzZXJfaWQiOiI2IiwibmJmIjoxNjM3MDEyMzMzLCJleHAiOjE2MzcwMzM5MzMsImlhdCI6MTYzNzAxMjMzM30.L7pawdyRCM_IvRinVCWbx0LdZ2Ym3l5_6rHmwUZFdC0",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"My 5 Post\",\r\n    \"content\": \"Any content\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://zemoga-blog-engine.azurewebsites.net/api/posts",
+							"protocol": "https",
+							"host": [
+								"zemoga-blog-engine",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"posts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All Post Published",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://zemoga-blog-engine.azurewebsites.net/api/posts/published",
+							"protocol": "https",
+							"host": [
+								"zemoga-blog-engine",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"posts",
+								"published"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Comment",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"postId\": 1,\r\n    \"description\": \"Primer commentarios para el post numero 1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://zemoga-blog-engine.azurewebsites.net/api/comments",
+							"protocol": "https",
+							"host": [
+								"zemoga-blog-engine",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"comments"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Post",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IndyaXRlckB3cml0ZXIuY29tIiwicm9sZSI6IldyaXRlciIsInVzZXJfaWQiOiI2IiwibmJmIjoxNjM3MDAxMTQzLCJleHAiOjE2MzcwMjI3NDMsImlhdCI6MTYzNzAwMTE0M30.RfUesGe_FKpwHPZPrEIF5xZlgz1WhYbW5NN1An6o61A",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"Second Post Edited\",\r\n    \"content\": \"Any content\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://zemoga-blog-engine.azurewebsites.net/api/posts/2",
+							"protocol": "https",
+							"host": [
+								"zemoga-blog-engine",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"posts",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Approve Post",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImVkaXRvckBlZGl0b3IuY29tIiwicm9sZSI6IkVkaXRvciIsInVzZXJfaWQiOiI1IiwibmJmIjoxNjM3MDAxODY3LCJleHAiOjE2MzcwMjM0NjcsImlhdCI6MTYzNzAwMTg2N30.YMpMtyc5OrTr0SypLRW2XOTr7530TltYiE7rzs5ofww",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://zemoga-blog-engine.azurewebsites.net/api/posts/approved/2",
+							"protocol": "https",
+							"host": [
+								"zemoga-blog-engine",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"posts",
+								"approved",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Reject Post",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImVkaXRvckBlZGl0b3IuY29tIiwicm9sZSI6IkVkaXRvciIsInVzZXJfaWQiOiI1IiwibmJmIjoxNjM3MDAxODY3LCJleHAiOjE2MzcwMjM0NjcsImlhdCI6MTYzNzAwMTg2N30.YMpMtyc5OrTr0SypLRW2XOTr7530TltYiE7rzs5ofww",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"statusComment\": \"asjdasjdj\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://zemoga-blog-engine.azurewebsites.net/api/posts/rejected/2",
+							"protocol": "https",
+							"host": [
+								"zemoga-blog-engine",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"posts",
+								"rejected",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
