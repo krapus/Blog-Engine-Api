@@ -8,7 +8,7 @@
 * Run the sql script that is in the Database folder
 * Run the BlogEngine Project
 * You can use the postman file to test the endpoints. It's in /Docs/Postman folder.
-* Test Complete in 18 hours
+* Test Completed in 18 hours
 
 ## Users and Accounts
 
