@@ -22,9 +22,9 @@
       "launchBrowser": true,
       "launchUrl": "",
       "environmentVariables": {
-        "TOKEN_SECRET": "nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDsZRuTRn2Hz0YZ\\nyzKooo4AJVuO0di5KHlxkN93TbllbYJC/xRRRMKZMRcECTZ4ZfT9sYEXn0on1v+P\\niRBgfsoKFlJRKC/SWoV0mBqgRWLEaVTt8niQZ5i/97WP+pPtQ74TjoK21UHXGFzh\\nTtCg+/CZ314CCv52p3uPhMXJeSDXf7QrLMarVyV2LeDXnKQcLvTxvZeKNI30Z0zp\\n9koFWUsRlSdzOHz2BuiCKgLlFoCXLANkXP+NsR8bYGX1cp0H2vThqeLDh6PGSI0F\\nSL+Scsshgm4teYzWkfVipysCGL20CrfMmEVoCyeEzD5X3wJ4thnbirbZeJ2Hn548\\nb+IYQWEdAgMBAAECggEADOYXcxnNj7OHp7Cmuvzjsq5XKJvar3+94Kx/BQuAqkAn\\nc3Bns2eFFsbO8rFt/3PQwmcFHDzc1v+sQjDAbAN/Er3VEAiZU2kNDyedjFE86mq0\\n76bjXT3J3++sQIbzu2aO4JJOH5vTU+FIcCLUz3Pv1PWTM5lV+TN6UoJ0KGIroJaE\\naQPjLDUPt4x1HqfdrSHwEtDsHfPNokmHfSjqb9TSwrThlo5c9ouycatVM3I8hFSn\\nsVRJmHZYvkpvzZlpYQsR4K4Xql9Odj2FrIpj7ZO+dGGNKgdhphoMHkrm7djAY+Ov\\na0rktDPwlkLqUILXb9zyOIoCw9bAaTm20FN2MqsGIQKBgQD/E+mQ+m1lfFgNdBH8\\nBPeig3hlFy/GzP7onj25xappVmfaLekRn5QqEZXeFUWNu6Q/+2+FRT5mPArfivv5\\n5CfxJCTQBqfYe3IiGHy6BSxmqroxbhX79MZbYCgIMvbfIWxKwDw3ixZn5CDkmx7m\\n/lJ0KapDca4uqj6/Fcn6BMs+YwKBgQDtP+dG3ZFFqMjkWOBApUZpkkeQdCt3HJYU\\nyIrGmjlKkfe7jp7GC/L1m7DcKlgcMezYK++PIhS2P+TWl57MxXT0Aj8tnyrCTf0U\\n3wwhneguDEIc/g+v/QVJO9Zi5hA94e7w2BPksWJdiYKlqXti33HQ0++tZxwGojzJ\\n0JRCH/k6fwKBgQCEEj5UJ6Yu7tP0m02YjMXfam0TAo9lQs0ViqFxJ8yVX/zDthPA\\nYTzpD1PmumLaAPcJfdl/SpwFeT80AZV4DM81hz5cS6Xqa/hrePxToMwdmHZxk4tk\\nepedxkrT+/dhDsAwcBp9s9F1F2SEmWDFv5bXuJ8E7r5+QP3eGJ0MjCDj+wKBgAr9\\nlt01jnFHrGbHpzvXbDefyyjp+Ml/zYQQ9jzVECpgMLXDmZ9bFlpCaCMK4yILPgmV\\nn3dmAMeglh1K0NRzoUNch0i5wuVVb4/z9T/pbMQVVUq6ikeA1SnbV8clGUOEn+kQ\\nWXuSrBfhMugxvcGK0F74MnY5/JZiFabTvsqBaK5JAoGBAPMcRq9RcJbAR0AsW2xE\\ncBgz3QcCrQUGI/rUCazJ7J55yVhB1NQky5vtxfPt4VvxST0XF4SUzEavxcJ1G44B\\nH3oDCgMvH1haJ0AIm0/+d//mc/zubFDIy+mx4/bg9GkTDQag3dNZoebE74dPPnHJ\\nO62moOfzJ3oggbLsaAmOHv+f",
+        "TOKEN_SECRET": "",
         "ASPNETCORE_ENVIRONMENT": "Development",
-        "DATABASE_CONECTION_STRING": "Server=tcp:zemoga-blog-engine.database.windows.net,1433;Initial Catalog=zemoga-blog-engine;Persist Security Info=False;User ID=zemoga;Password=Delta.678;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+        "DATABASE_CONECTION_STRING": ""
       },
       "applicationUrl": "https://localhost:5001;http://localhost:5000"
     },
