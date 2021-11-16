@@ -19,5 +19,5 @@
 * [Blog Engine Api](https://zemoga-blog-engine.azurewebsites.net/index.html)
 
 ## Url Blog Engine Site
-* [Blog Engine Site](https://blogenginesite.z13.web.core.windows.net/posts)
+* [Blog Engine Site](https://blogenginesite.z13.web.core.windows.net)
 
